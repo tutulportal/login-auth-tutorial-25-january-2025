@@ -130,6 +130,26 @@ header > .inner-header{
     display: none;
 }
 
+.error-email{
+    border-bottom: 2px solid red !important;
+    color: red !important;
+}
+.email-valid-message{
+    font-size: 12px;
+    font-weight: 600;
+    display: none;
+}
+
+.email-valid-message.valid{
+    color: #4dca14;
+    display: block;
+}
+
+.email-valid-message.invalid{
+    color: red;
+    display: block;
+}
+
 
 
 
