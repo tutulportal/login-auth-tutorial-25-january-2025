@@ -119,6 +119,10 @@ header > .inner-header{
     position: relative;
 }
 
+.confirm-password{
+    position: relative;
+}
+
 .eye-btn{
     position: absolute;
     right: 0;
@@ -134,7 +138,19 @@ header > .inner-header{
     border-bottom: 2px solid red !important;
     color: red !important;
 }
+
+.error-full-name{
+    border-bottom: 2px solid red !important;
+    color: red !important;
+}
+
 .email-valid-message{
+    font-size: 12px;
+    font-weight: 600;
+    display: none;
+}
+
+.full-name-valid-message{
     font-size: 12px;
     font-weight: 600;
     display: none;
@@ -150,6 +166,61 @@ header > .inner-header{
     display: block;
 }
 
+.full-name-valid-message.invalid{
+    color: red;
+    display: block;
+}
 
+.login-form > .full-name{
+    width: 100%;
+}
+
+.full-name > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 2px solid #262626;
+    font-size: 17px;
+}
+
+.login-form > .username{
+    width: 100%;
+}
+
+.username > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 2px solid #262626;
+    font-size: 17px;
+}
+
+.login-form > .mobile{
+    width: 100%;
+}
+
+.mobile > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 2px solid #262626;
+    font-size: 17px;
+}
+
+.login-form > .confirm-password{
+    width: 100%;
+}
+
+.confirm-password > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 2px solid #262626;
+    font-size: 17px;
+}
 
 

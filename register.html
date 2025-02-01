@@ -29,19 +29,36 @@
     </header>
     <section class="login-section">
         <div class="inner-login-section">
-            <h2>Login</h2>
+            <h2>Sign Up</h2>
             <form class="login-form" action="">
+                <div class="full-name">
+                    <input type="text" name="full-name" id="full-name" placeholder="Enter Full Name">
+                    <span class="full-name-valid-message" id="full-name-valid-message"></span>
+                </div>
+                <div class="username">
+                    <input type="text" name="username" id="username" placeholder="Create Your Username">
+                    <span class="username-valid-message" id="username-valid-message"></span>
+                </div>
                 <div class="email">
                     <input type="email" name="email" id="email" placeholder="yourname@email.com">
                     <span class="email-valid-message" id="email-valid-message"></span>
+                </div>
+                <div class="mobile">
+                    <input type="text" name="mobile" id="mobile" placeholder="01700000000">
+                    <span class="mobile-valid-message" id="mobile-valid-message"></span>
                 </div>
                 <div class="password">
                     <input type="password" name="password" id="password" placeholder="Your Password">
                     <span class="eye-btn" id="eye-btn-open"><i class="fa-regular fa-eye"></i></span>
                     <span class="eye-btn close-the-btn" id="eye-btn-close"><i class="fa-regular fa-eye-slash"></i></span>
                 </div>
+                <div class="confirm-password">
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+                    <span class="eye-btn" id="eye-btn-open2"><i class="fa-regular fa-eye"></i></span>
+                    <span class="eye-btn close-the-btn" id="eye-btn-close2"><i class="fa-regular fa-eye-slash"></i></span>
+                </div>
                 <div class="submit-form">
-                    <button class="login-btn" id="login-btn">LOGIN</button>
+                    <button class="login-btn" id="login-btn">SIGN UP</button>
                 </div>
             </form>
         </div>
