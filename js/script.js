@@ -65,4 +65,11 @@ loginBtn.addEventListener('click', function(e){
         fullnameValidMessage.classList.remove('invalid');
     }
 
+    // password check
+    var newPassword = document.getElementById('password');
+    var newPasswordBox = document.getElementById('password-box');
+    if(newPassword.value == ""){
+        newPasswordBox.classList.add('invalid');
+    }
+
 });

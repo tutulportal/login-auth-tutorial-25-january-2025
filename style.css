@@ -156,6 +156,17 @@ header > .inner-header{
     display: none;
 }
 
+.password-warning{
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+    display: none;   
+}
+
+.password-warning.active{
+    display: block;
+}
+
 .email-valid-message.valid{
     color: #4dca14;
     display: block;
@@ -221,6 +232,11 @@ header > .inner-header{
     padding: 5px 0;
     border-bottom: 2px solid #262626;
     font-size: 17px;
+}
+
+.password.invalid > input{
+    border-bottom: 2px solid red;
+    color: red;
 }
 
 
